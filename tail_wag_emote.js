@@ -1,4 +1,4 @@
-import tryout from "./barSplitter";
+import tryout from "https://crimsontropy.github.io/BondageClubTools/barSplitter.js";
 tryout();
 async function TailWagEmote() {
 

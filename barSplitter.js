@@ -1,3 +1,7 @@
+export default function tryout() {
+	console.log("just a try");
+}
+
 async function BarSplit(){	
 	
 	await waitFor(() => ServerSocket && ServerIsConnected);

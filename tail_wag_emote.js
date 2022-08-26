@@ -1,3 +1,5 @@
+import tryout from "barSplitter";
+tryout();
 async function TailWagEmote() {
 
     await waitFor(() => ServerIsConnected && ServerSocket);
@@ -41,7 +43,7 @@ async function TailWagEmote() {
 	{
 		let change = argsList[0];
 		let changeto = argsList.slice(1);
-        
+        tryout();
         //console.log("change = "+ change, "changeto = "+ changeto);
 
         if (change === "current1") {

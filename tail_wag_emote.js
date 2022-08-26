@@ -1,4 +1,4 @@
-import tryout from "barSplitter";
+import tryout from "./barSplitter";
 tryout();
 async function TailWagEmote() {
 
